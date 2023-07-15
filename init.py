@@ -23,7 +23,7 @@ mycursor = connection.cursor()
 # mycursor.execute("USE Sentiment_Analysis")
 # mycursor.execute("CREATE TABLE sentiments (text varchar(100), result varchar(20))")
 while(True):
-    n=input("enter 'n' for discontinue and 'y' for continue: ")
+    n=input("Enter 'n' for discontinue and 'y' for continue: ")
     if(n=='y'):
             openai.api_key = "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"
             text=""
